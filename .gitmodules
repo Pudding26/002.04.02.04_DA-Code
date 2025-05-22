@@ -1,0 +1,6 @@
+[submodule "002.04.02.04.01_DA-CodeFrontend"]
+	path = 002.04.02.04.01_DA-CodeFrontend
+	url = git@github.com:Pudding26/002.04.02.04.01_DA-CodeFrontend.git
+[submodule "002.04.02.04.02_DA-CodeOrchestrator"]
+	path = 002.04.02.04.02_DA-CodeOrchestrator
+	url = git@github.com:Pudding26/002.04.02.04.02_DA-CodeOrchestrator.git
