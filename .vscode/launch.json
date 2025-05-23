@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Streamlit Frontend",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/002.04.02.04.01_DA-CodeFrontend/venv_002.04.02.04.01_DA-CodeFrontend/bin/streamlit",
+        "args": [
+          "run",
+          "app/main.py"
+        ],
+        "console": "integratedTerminal",
+        "cwd": "${workspaceFolder}/002.04.02.04.01_DA-CodeFrontend",
+        "justMyCode": false
+      },
+      {
+        "name": "Debug Orchestrator Backend",
+        "type": "python",
+        "request": "launch",
+        "module": "uvicorn",
+        "args": [
+          "app.main:app",
+          "--reload",
+          "--host", "0.0.0.0",
+          "--port", "8000"
+        ],
+        "cwd": "${workspaceFolder}/002.04.02.04.02_DA-CodeOrchestrator",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      }
+    ],
+    "compounds": [
+      {
+        "name": "Run Frontend and Backend",
+        "configurations": [
+          "Debug Streamlit Frontend",
+          "Debug Orchestrator Backend"
+        ]
+      }
+    ]
+  }
+  
