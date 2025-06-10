@@ -4,3 +4,6 @@
 [submodule "002.04.02.04.02_DA-CodeOrchestrator"]
 	path = 002.04.02.04.02_DA-CodeOrchestrator
 	url = git@github.com:Pudding26/002.04.02.04.02_DA-CodeOrchestrator.git
+[submodule "002.04.02.04.03_DA-CodeWorker"]
+	path = 002.04.02.04.03_DA-CodeWorker
+	url = git@github.com:Pudding26/002.04.02.04.03_DA-CodeWorker.git

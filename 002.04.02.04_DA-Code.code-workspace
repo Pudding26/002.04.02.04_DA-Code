@@ -7,8 +7,12 @@
 	  {
 		"name": "Backend",
 		"path": "002.04.02.04.02_DA-CodeOrchestrator"
-	  }
+	  },
 	  
+	  {
+		"name": "Worker",
+		"path": "002.04.02.04.03_DA-CodeWorker"
+	  }
 
 	],
 	"settings": {}
